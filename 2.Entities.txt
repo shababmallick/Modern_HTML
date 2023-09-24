@@ -1,0 +1,17 @@
+HTML entities are special codes used to represent characters or 
+symbols that have special meaning or may not be easily typed
+on a standard keyboard. They are often used in HTML to display
+reserved characters with specific formatting requirements.
+
+
+Here are five commonly used HTML entities.
+
+&lt;
+
+&gt;
+
+&amp;
+
+&quot;
+
+&copy;

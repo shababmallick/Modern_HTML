@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="5.web page.css"> 
+</head>
+<body>
+    <header>
+        <h1>HTML5 Features</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Semantic Elements</a></li>
+            <li><a href="">Video and Audio</a></li>
+            <li><a href="">Canvas</a></li>
+            <li><a href="">Form Enhancements</a></li>
+            <li><a href="">Geolocation</a></li>
+            <li><a href="">Web Storage</a></li>
+            <li><a href="">SVG Graphics</a></li>
+            <li><a href="">Web Worker</a></li>
+            <li><a href="">Drag and DROP</a></li>
+            <li><a href="">WebSockets</a></li>
+            <li><a href="">Responsive Web Design</a></li>
+            <li><a href="">Offline Application cache</a></li>
+            <li><a href="">Local File Handling</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="feature" id="semantic">
+             <h2>Semantic Elements</h2>
+             <p>HTML5 introduces semantic elements like &lt;header&gt;,
+                &lt;nav&gt;,&lt;section&gt;and &lt;footer&gt;that provide
+                better structure and meaning to your web pages.
+             </p>
+        </section>
+        <section class="feature" id="video">
+            <video controls>
+               <source src="sample.mp4" type="video/mp4">
+               your browser does not support the video tag.
+            </video>
+             <audio controls>
+                <source src="example.mp4" type="video/mp4"> 
+                your browser does not support audio tag.
+             </audio>
+        </section>
+        <section class="feature" id="Canvas">
+            <h2>Canvas for Graphics</h2>
+             <canvas id="myCanvas" width="400" height="200"></canvas>
+             <script>
+                var canvas = document.getElementById("myCanvas");
+                var context = canvas.getContext("2d");
+                context.fillStyle = "lightblue";
+                context.fillRect(0, 0, canvas.width, canvas.height);
+                context.font = "20px Arial";
+                context.fillStyle = "black";
+                context.fillText("Hello, HTML5 Canvas!", 50, 100);
+             </script>
+        </section>
+        <section class="feature" id="forms">
+             <h2>Form Improvements</h2>
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" id="birthdate" name="birthdate">
+    <br>
+    <input type="submit" value="submit">
+</form>
+</section>
+<section class="feature" id="geolocation">
+    <h2>Geolocation</h2>
+    <p id="geoLocation">Click the button to get your location.</p>
+    <script>
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+                    document.getElementById("geoLocation").innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
+                });
+            } else {
+                document.getElementById("geoLocation").innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+        getLocation();
+    </script>
+</section>
+<section class="feature" id="webstorage">
+    <h2>Web Storage</h2>
+    <button onclick="localStorage.setItem('message', 'Hello, Local Storage!')">Store Data</button>
+    <p id="localStorageData"></p>
+    <script>
+        var storedData = localStorage.getItem('message');
+        document.getElementById('localStorageData').innerHTML = storedData;
+    </script>
+</section>
+ <section class="feature" id="svg">
+      <h2>SVG Graphics</h2>
+      <svg width="200" height="200">
+        <circle cx="70" cy="70" r="50" stroke="black" stroke-width="7" fill="red"/>
+      </svg>
+ </section>
+ <section class="feature" id="webworkers">
+    <h2>Web Workers</h2>
+    <p>Open the browser's developer console to see the output from the Web Worker.</p>
+    <script>
+        var worker = new Worker('worker.js');
+        worker.onmessage = function(e) {
+            console.log('Message from Web Worker:', e.data);
+        };
+        worker.postMessage('Hello from the main page!');
+    </script>
+</section>
+
+    </main>
+    
+</body>
+</html>

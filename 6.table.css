@@ -1,0 +1,23 @@
+
+table {
+   width: 80%;
+   border: black;
+   box-shadow: 12px 12px 13px 13px  rgb(43, 21, 105);
+   color: rgb(3, 3, 5);
+}
+th {
+   border: 1px solid rgb(12, 12, 12);
+   text-align: center;
+   padding: 10px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    size: auto;
+}
+
+th {
+    background-color: #f2f2f2;
+}

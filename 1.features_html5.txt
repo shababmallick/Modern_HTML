@@ -1,0 +1,56 @@
+semantic Elements:- HTML5 introduced a set of semantic 
+elements like <header>, <nav> , <section>, <article>, 
+<footer> and more which helps in structuring web content
+ more meaningfully making it easier for search engines and
+ assistive technologies to understand the page.
+
+
+ Audio and Video : HTML5 includes native support for embedding
+ audio and video content using the <audio> and <video>
+ elements, reducing the need for third party plugins like
+ Flash.
+
+ canvas:- The <canvas> element provides a drawing and 
+ graphic API, allowing developers to create interactive
+ graphics, animations, and games directly in the browser.
+
+ Scalable Vector Graphics(SVG): HTML5 supports the <svg> 
+ elements for creating vector graphics and animations, which
+ can be easily scaled without loss of quality.
+
+ Local Storage:- HTML5 introduced 'localStorage' and 
+ 'sessionStorage' APIs , Which allows websites to store data
+ locally in the user's browser, even after browser closed.
+
+ Geolocation:- HTML5 provides a Geolocation API, allowing 
+ websites to access the users geographic location ,enabling
+ location-beased services and applications.
+
+ Web Storage:- Besides local storage, HTML5 introduced the 
+ Web Storage API, Which includes the 'localStorage' and
+'sessionStorage' objects providing a way to store key-value 
+pairs in a more efficent manner than cookies.
+
+Responsive Images: HTML5 includes features like the 
+<picture> and <source> elements which enable developers to
+ deliver responsive images based on screen size and 
+ resolution. 
+
+ Web Workers:- Web Workers allow running scripts in the 
+ background to perform tasks without affecting the user
+interface's responsiveness, enhancing web application 
+performanece.
+
+
+WebSockets:- HTML5 introduced  the WebSocket API, enabling
+two way communication between the browser and web server,
+facilitating real-time applications like chat and online 
+gaming.
+
+Form Enhancements:- HTML5 includes new input types 
+(e.g , 'email' , 'url' , 'tel' , 'number' , 'date', 'color') 
+and attributes (e.g., 'required' , 'placholder') to improve
+form handling and validation.
+
+
+Drag and Drop :- HTML5 provides

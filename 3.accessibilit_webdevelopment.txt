@@ -1,0 +1,8 @@
+Accessibility in web development is about making websites and 
+web applications usable by all, regardless of disabilities. 
+It's essential because it promotes inclusivity, legal 
+compliance, a better user experience, a broader audience, 
+and improved SEO. It benefits different user groups such as 
+visually impaired, hearing impaired, motor impaired, 
+cognitively diverse, and aging users by providing equal 
+access and usability

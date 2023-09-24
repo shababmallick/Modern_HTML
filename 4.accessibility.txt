@@ -1,0 +1,12 @@
+
+Three Ways which help us in improving the accessibility are
+
+Semantic HTML Elements:-
+
+(<header>, <nav>, <main>, <article>, <section>, <footer>
+)
+
+
+Alt text for images
+
+proper Form labels and Input Validation
